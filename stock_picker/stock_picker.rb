@@ -23,6 +23,6 @@ def stock_picker(stock_prices)
    [ [buy_day, sell_day], {buy_at: "$#{buy_at}", sell_at: "$#{sell_at}", profit: "$#{sell_at - buy_at}" } ]
   end
 
-  p stock_picker([17,3,6,9,15,8,6,1,10])\
+  p stock_picker([17,3,6,9,15,8,6,1,10])
   # Ouputs => [[1, 4], {:buy_at=>"$3", :sell_at=>"$15", :profit=>"$12"}]
   
